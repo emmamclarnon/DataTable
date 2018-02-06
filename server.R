@@ -32,7 +32,7 @@ function(input, output) {
   output$table <- DT::renderDataTable(DT::datatable(rownames=F,options=list(
       initComplete = JS(
                                                       "function(settings, json) {",
-                                                      "$(this.api().table().header()).css({'background-color': '#000', 'color': '#fff'});",
+                                                      "$(this.api().table().header()).css({'background-color': '#038fd2', 'color': '#fff'});",
                                                       "}")
   ),
                                                   
